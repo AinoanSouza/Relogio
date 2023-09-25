@@ -1,0 +1,35 @@
+
+
+body {
+    font-size: 60px;
+    background: linear-gradient(120deg, lightblue, darkblue) ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.relogio {
+    display: flex;
+    align-items: center;
+    padding: 30px;   
+    box-shadow: 10px 10px 10px;
+}
+.relogio div {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: black 1px;
+    
+}
+.relogio span {
+    font-size: 100px;
+    letter-spacing: 5px; 
+    box-shadow: black 1px 0px 1px 1px;
+}
+#horas, #minutos, #segundos {
+    padding: 5px 5px;
+    color:white;
+    
+}
